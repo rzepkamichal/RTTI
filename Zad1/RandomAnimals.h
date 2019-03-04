@@ -20,6 +20,7 @@ public:
     void insertRandomAnimal();
 
     //wstawia okreslona przez arg. number liczbe losowych obiektow do wektora animals
+    //wykorzystuje funkcje insertRandomAnimal() jako pomocnicza
     void insertRandomAnimals(int number);
 
     //zwraca przez referencje wektor cats
